@@ -1,0 +1,16 @@
+{
+  "id": "biasedBalance",
+  "name": "Biased Balance",
+  "author": ["BakersDozenBagels", "Serenos", "Mills-44"],
+  "description": "Mod design by Serenos, code by BakersDozenBagels and Mills-44, Art by Mills-44",
+  "prefix": "biasedBalance",
+  "main_file": "src/main.lua",
+  "priority": 0,
+  "badge_colour": "a0233b",
+  "badge_text_colour": "fc7b7b",
+  "display_name": "Biased Balance",
+  "version": "1.0.0",
+  "dependencies": ["Steamodded (>=1.0.0~BETA-0614a)"],
+  "conflicts": [],
+  "provides": []
+}

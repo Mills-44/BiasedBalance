@@ -1,5 +1,21 @@
 {
     "Lua.diagnostics.disable": [
-        "undefined-global"
+    ],
+    "Lua.diagnostics.globals": [
+        "pseudorandom_element",
+        "SMODS",
+        "pseudoseed",
+        "Event",
+        "create_playing_card",
+        "delay",
+        "G",
+        "playing_card_joker_effects",
+        "ease_dollars",
+        "play_sound",
+        "create_card",
+        "copy_card",
+        "localize",
+        "Game"
     ]
+    
 }

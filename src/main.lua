@@ -29,7 +29,7 @@ SMODS.load_file("lib/pools.lua")()
 SMODS.load_file("lovely/fixes.toml")
 
 -- TWEAKS
---BiasedBalance.file_loader(BiasedBalance.Back_Tweaks, "src/tweaks/backs")
+BiasedBalance.file_loader(BiasedBalance.Back_Tweaks, "src/tweaks/backs")
 --BiasedBalance.file_loader(BiasedBalance.Blind_Tweaks, "src/tweaks/blinds")
 --BiasedBalance.file_loader(BiasedBalance.Edition_Tweaks, "src/tweaks/editions")
 --BiasedBalance.file_loader(BiasedBalance.Enhancement_Tweaks, "src/tweaks/enhancements")

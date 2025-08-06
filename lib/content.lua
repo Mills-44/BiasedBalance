@@ -38,3 +38,6 @@ BiasedBalance.Tarot_Tweaks = {
 BiasedBalance.Planet_Tweaks = {
     "planets",
 }
+BiasedBalance.Edition_Tweaks = {
+    "edition",
+}

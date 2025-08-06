@@ -35,9 +35,54 @@ BiasedBalance.Tarot_Tweaks = {
 
 -- ||   WIP   ||
 }
+BiasedBalance.Joker_Tweaks = {
+-- ||   RELEASED   ||
+-- Common
+    "banner",
+    "bootstrap",
+    "castle",
+    "cloud_nine",
+    "crafty",
+    "crazy",
+    "delay_grat",
+    "devious",
+    "droll",
+    "egg",
+    "erosion",
+    "flash",
+    "flower_pot",
+    "gift",
+    "gluttenous",
+    "greedy",
+    "hiker",
+    "joker",
+    "lusty",
+    "scary_face",
+    "scholar",
+    "space",
+    "ticket",
+    "to_the_moon",
+    "wrathful",
+-- Uncommon 
+
+-- Rare
+
+-- Legendary 
+-- ||   WIP   ||
+-- Common
+
+-- Uncommon 
+
+-- Rare
+
+-- Legendary 
+}
 BiasedBalance.Planet_Tweaks = {
     "planets",
 }
 BiasedBalance.Edition_Tweaks = {
     "edition",
+}
+BiasedBalance.Enhancement_Tweaks = {
+    "wild",
 }

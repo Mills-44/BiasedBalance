@@ -15,7 +15,9 @@
         "create_card",
         "copy_card",
         "localize",
-        "Game"
+        "Game",
+        "poll_edition",
+        "Card"
     ]
     
 }

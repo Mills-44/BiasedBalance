@@ -23,7 +23,8 @@ BiasedBalance = {}
 -- Load Lib Files
 SMODS.load_file("lib/content.lua")() -- Definitions or Content Added
 SMODS.load_file("lib/utils.lua")() -- Utility functions built
-SMODS.load_file("lib/pools.lua")()
+SMODS.load_file("lib/pools.lua")() -- Pools for Content
+SMODS.load_file("lib/ban.lua")() -- Bans used in Game
 
 -- Lovely Fixes
 SMODS.load_file("lovely/fixes.toml")
@@ -33,14 +34,14 @@ BiasedBalance.file_loader(BiasedBalance.Back_Tweaks, "src/tweaks/backs")
 BiasedBalance.file_loader(BiasedBalance.Planet_Tweaks, "src/tweaks/planets")
 BiasedBalance.file_loader(BiasedBalance.Spectral_Tweaks, "src/tweaks/spectrals")
 BiasedBalance.file_loader(BiasedBalance.Edition_Tweaks, "src/tweaks/editions")
---BiasedBalance.file_loader(BiasedBalance.Blind_Tweaks, "src/tweaks/blinds")
---BiasedBalance.file_loader(BiasedBalance.Enhancement_Tweaks, "src/tweaks/enhancements")
+BiasedBalance.file_loader(BiasedBalance.Enhancement_Tweaks, "src/tweaks/enhancements")
 --BiasedBalance.file_loader(BiasedBalance.Joker_Tweaks, "src/tweaks/jokers")
 --BiasedBalance.file_loader(BiasedBalance.Rarity_Tweaks, "src/tweaks/rarities")
 --BiasedBalance.file_loader(BiasedBalance.Stake_Tweaks, "src/tweaks/stakes")
 --BiasedBalance.file_loader(BiasedBalance.Tag_Tweaks, "src/tweaks/tags")
 --BiasedBalance.file_loader(BiasedBalance.Tarot_Tweaks, "src/tweaks/tarots")
 --BiasedBalance.file_loader(BiasedBalance.Voucher_Tweaks, "src/tweaks/vouchers")
+--BiasedBalance.file_loader(BiasedBalance.Blind_Tweaks, "src/tweaks/blinds")
 
 -- ADDS
 BiasedBalance.file_loader(BiasedBalance.Back_Adds, "src/adds/backs")

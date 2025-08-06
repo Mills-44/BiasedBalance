@@ -51,6 +51,41 @@ return {
                 }
             },
         },
+        Joker = {
+            -- Common 
+            j_delayed_grat = {
+                name = "Reduced Gratification",
+                text = {
+                    "Earn {C:money}$#1#{} when",
+                    "{C:red}discarding {C:attention}#2#",
+                    "or fewer cards"
+                }
+            },
+            j_flash={
+                name = "Flash Card",
+                text = {
+                    "This Joker gains {C:mult}+#1#{} Mult",
+                    "per {C:attention}reroll{} in the shop",
+                    "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)",
+                },
+            },
+            j_flower_pot = {
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult if played",
+                    "hand contains a",
+                    "{C:diamonds}Diamond{} card, {C:clubs}Club{} card,",
+                    "{C:hearts}Heart{} card, and {C:spades}Spade{} card",
+                }
+            },
+            j_scary_face = {
+                text = {
+                    "Played {C:attention}face{} cards",
+                    "give {C:chips}+#1#{} Chips",
+                    "and {C:mult}+#2#{} Mult",
+                    "when scored",
+                }
+            },
+        },
         Spectral = {
             c_ankh = {
                 text = {

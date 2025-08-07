@@ -84,5 +84,11 @@ function BiasedBalance.on_set_blind(blind)
             blind = blind
         })
     end
-
   end
+
+---Returns true with probability `chance` (0.0 to 1.0)
+---@param chance number
+---@return boolean
+function BiasedBalance.random_chance(chance)
+  return math.random() < chance
+end

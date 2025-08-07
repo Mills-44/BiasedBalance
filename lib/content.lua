@@ -64,7 +64,20 @@ BiasedBalance.Joker_Tweaks = {
     "to_the_moon",
     "wrathful",
 -- Uncommon 
-
+    "arrowhead",
+    "drivers_license",
+    "glass",
+    "hack",
+    "onyx",
+    "photograph",
+    "red_card",
+    "reduce_grat",
+    "rough_gem",
+    "seance",
+    "steel",
+    "to_do",
+    "troubadour",
+    "trousers",
 -- Rare
 
 -- Legendary 

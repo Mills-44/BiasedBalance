@@ -70,3 +70,19 @@ function BiasedBalance.juice_flip(used_tarot)
         }))
     end
 end
+
+-- Reroll Scale
+function BiasedBalance.reroll_scale()
+    return G.GAME.modifiers.reroll_scale or 1
+end
+
+-- Setting blinds
+function BiasedBalance.on_set_blind(blind)
+    for i = 1, #G.GAME.tags do
+        G.GAME.tags[i]:apply_to_run({
+            type = 'biasedBalance_set_blind',
+            blind = blind
+        })
+    end
+
+  end

@@ -108,41 +108,47 @@ BiasedBalance.Common_Jokers = {
 }
 
 BiasedBalance.Rare_Jokers = {
-    "vagabond",
-    "invisible",
-    "tribe",
-    "card_sharp",
-    "dna",
+-- ||   Tweaks    ||
+    "ancient",
     "baron",
-    "obelisk",
     "baseball",
     "blueprint",
-    "wee_joker",
+    "brainstorm",
+    "burnt",
+    "dna",
     "duo",
     "family",
+    "invisible",
+    "obelisk",
     "order",
     "stuntman",
-    "brainstorm",
-    "drivers_license",
-    "burnt_joker",
-    "biasedBalance_Rivals",
-    "biasedBalance_BluntedImpact",
-    "biasedBalance_DeathAndTaxes",
-    "biasedBalance_FlavourfulJoker",
-    "biasedBalance_MelancholicJoker",
-    "biasedBalance_BrashGambler",
-    "biasedBalance_Bookworm",
-    "biasedBalance_Parvenu",
-    "biasedBalance_Skipper",
-    "biasedBalance_Minstrel",
+    "tribe",
+    "trio",
+    "vagabond",
+    "wee"
+-- ||   Adds    ||
+    -- "biasedBalance_death_and_taxes",
+    -- "biasedBalance_esteemed_audience",
+    -- "biasedBalance_light_in_the_tunnel",
+    -- "biasedBalance_opportunity_cost",
+    -- "biasedBalance_prehistoric_joker",
+    -- "biasedBalance_propitous_joker",
+    -- "biasedBalance_shapeshifter",
+    -- "biasedBalance_singularity",
+    -- "biasedBalance_spice",
+    -- "biasedBalance_velvet_choker",
+    -- "biasedBalance_yodeller",
 }
 
 BiasedBalance.Legendary_Jokers = {
-    "perkeo",
+-- ||   Tweaks    ||
     "canio",
-    "yorick",
+    "chicot",
+    "perkeo",
     "triboulet",
-    "chicot"
+    "yorick"
+-- ||   Adds    ||
+    -- "biasedBalance_",
 }
 
 BiasedBalance.Tarots = {

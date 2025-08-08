@@ -92,3 +92,40 @@ function BiasedBalance.on_set_blind(blind)
 function BiasedBalance.random_chance(chance)
   return math.random() < chance
 end
+
+-- Two Pair Checker
+function BiasedBalance.two_pairs(a, b)
+    local next, t, k = pairs(a)
+    local done, v = false, nil
+    return function()
+        k, v = next(t, k)
+        if k == nil and not done then
+            done = true
+            next, t, k = pairs(b)
+            k, v = next(b)
+        end
+        return k, v
+    end
+end
+
+-- Can Discard 
+local raw_G_FUNCS_can_discard = G.FUNCS.can_discard
+function G.FUNCS.can_discard(e)
+    for k, v in BiasedBalance.two_pairs(SMODS.find_card("j_troubadour"), SMODS.find_card("j_biasedBalance_Minstrel")) do
+        if v.ability and #G.hand.highlighted > v.ability.extra.discard_size then
+            e.config.colour = G.C.UI.BACKGROUND_INACTIVE
+            e.config.button = nil
+            return
+        end
+    end
+    raw_G_FUNCS_can_discard(e)
+end
+
+-- Glass Tweak
+local raw_Card_shatter = Card.shatter
+function Card:shatter(...)
+    if self.config.center.key == 'm_glass' then
+        G.GAME.BiasedBalance_shattered = (G.GAME.BiasedBalance_shattered or 0) + 1
+    end
+    return raw_Card_shatter(self, ...)
+end

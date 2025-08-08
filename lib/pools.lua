@@ -102,7 +102,7 @@ BiasedBalance.Common_Jokers = {
     -- "biasedBalance_practical_perfectionist",
     -- "biasedBalance_short_fuse",
     -- "biasedBalance_smurf",
-    -- "biasedBalance_jokester",
+    -- "biasedBalance_terrace_garden",
     -- "biasedBalance_wallpaper",
     -- "biasedBalance_wysteria_joker"
 }

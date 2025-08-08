@@ -124,6 +124,20 @@ BiasedBalance.Joker_Tweaks = {
 -- "invisible"
 -- Legendary 
 }
+BiasedBalance.Tag_Tweaks = {
+    "boss",
+    "buffoon",
+    "double",
+    "uncommon",
+    "rare",
+    "skip",
+    "meteor",
+    "boss",
+    "juggle",
+    "garbage",
+    "economy",
+    "standard",
+}
 BiasedBalance.Planet_Tweaks = {
     "planets",
 }

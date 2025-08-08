@@ -20,7 +20,14 @@
         "Card",
         "pseudorandom",
         "Talisman",
-        "card_eval_status_text"
+        "card_eval_status_text",
+        "update_hand_text",
+        "attention_text",
+        "Blind",
+        "ease_round",
+        "create_shop_card_ui",
+        "level_up_hand",
+        "ease_discard"
     ]
     
 }

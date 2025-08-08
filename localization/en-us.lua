@@ -53,14 +53,6 @@ return {
         },
         Joker = {
             -- Common 
-            j_delayed_grat = {
-                name = "Reduced Gratification",
-                text = {
-                    "Earn {C:money}$#1#{} when",
-                    "{C:red}discarding {C:attention}#2#",
-                    "or fewer cards"
-                }
-            },
             j_flash={
                 name = "Flash Card",
                 text = {
@@ -69,19 +61,29 @@ return {
                     "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)",
                 },
             },
+            j_scary_face = {
+                text = {
+                    "Played {C:attention}face{} cards",
+                    "give {C:chips}+#1#{} Chips",
+                    "and {C:mult}+#2#{} Mult",
+                    "when scored",
+                }
+            },
+            -- Uncommon
+            j_delayed_grat = {
+                name = "Reduced Gratification",
+                text = {
+                    "Earn {C:money}$#1#{} when",
+                    "{C:red}discarding {C:attention}#2#",
+                    "or fewer cards"
+                }
+            },
             j_flower_pot = {
                 text = {
                     "{X:mult,C:white}X#1#{} Mult if played",
                     "hand contains a",
                     "{C:diamonds}Diamond{} card, {C:clubs}Club{} card,",
                     "{C:hearts}Heart{} card, and {C:spades}Spade{} card",
-                }
-            },
-            j_glass = {
-                text = {
-                    "{X:mult,C:white}X#1#{} Mult for every",
-                    "{C:attention}Glass Card{} destroyed this run",
-                    "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)",
                 }
             },
             j_hack = {
@@ -92,6 +94,13 @@ return {
                     "{C:attention}2{}, {C:attention}3{}, {C:attention}4{}",
                     "{C:attention}5{}, or {C:attention}6{}",
                  }
+            },
+            j_glass = {
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult for every",
+                    "{C:attention}Glass Card{} destroyed this run",
+                    "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)",
+                }
             },
             j_red_card = {
                 text = {
@@ -109,12 +118,20 @@ return {
                     "earn {C:money}$#3#{} when scored",
                 }
             },
-            j_scary_face = {
+            j_seance = {
                 text = {
-                    "Played {C:attention}face{} cards",
-                    "give {C:chips}+#1#{} Chips",
-                    "and {C:mult}+#2#{} Mult",
-                    "when scored",
+                    "Replace a random held",
+                    "{C:tarot}Tarot{} card with",
+                    "a {C:spectral}Spectral{} card",
+                    "at end of round"
+                }
+            },
+            j_todo_list = {
+                text = {
+                    "Gains {X:mult,C:white}X#1#{} Mult the first time",
+                    "{C:attention}poker hand{} is a {C:attention}#2#{} this round,",
+                    "poker hand changes at end of round",
+                    "{C:inactive}(Currently {X:mult,C:white}X#3#{C:inactive} Mult)"
                 }
             },
             j_troubadour = {
@@ -133,14 +150,10 @@ return {
                     "{C:inactive}(Currently {C:red}+#4#{C:inactive} Mult and {C:chips}+#5#{C:inactive} Chips)",
                 },
             },
-            j_todo_list = {
-                text = {
-                    "Gains {X:mult,C:white}X#1#{} Mult the first time",
-                    "{C:attention}poker hand{} is a {C:attention}#2#{} this round,",
-                    "poker hand changes at end of round",
-                    "{C:inactive}(Currently {X:mult,C:white}X#3#{C:inactive} Mult)"
-                }
-            },
+            
+            -- Rare
+
+            -- Legendary
         },
         Spectral = {
             c_ankh = {

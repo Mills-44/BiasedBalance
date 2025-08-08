@@ -91,4 +91,4 @@ function BiasedBalance.on_set_blind(blind)
 ---@return boolean
 function BiasedBalance.random_chance(chance)
   return math.random() < chance
-end
+

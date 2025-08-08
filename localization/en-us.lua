@@ -77,12 +77,68 @@ return {
                     "{C:hearts}Heart{} card, and {C:spades}Spade{} card",
                 }
             },
+            j_glass = {
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult for every",
+                    "{C:attention}Glass Card{} destroyed this run",
+                    "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)",
+                }
+            },
+            j_hack = {
+                name = "Hack",
+                text = { 
+                    "Retrigger",
+                    "each played",
+                    "{C:attention}2{}, {C:attention}3{}, {C:attention}4{}",
+                    "{C:attention}5{}, or {C:attention}6{}",
+                 }
+            },
+            j_red_card = {
+                text = {
+                    "This Joker gains",
+                    "{X:mult,C:white}X#1#{} Mult when any",
+                    "{C:attention}Booster Pack{} is opened",
+                    "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)",
+                }
+            },
+            j_rough_gem = {
+                text = {
+                    "Played cards with",
+                    "{C:diamonds}Diamond{} suit have",
+                    "{C:green}#1# in #2#{} chance to",
+                    "earn {C:money}$#3#{} when scored",
+                }
+            },
             j_scary_face = {
                 text = {
                     "Played {C:attention}face{} cards",
                     "give {C:chips}+#1#{} Chips",
                     "and {C:mult}+#2#{} Mult",
                     "when scored",
+                }
+            },
+            j_troubadour = {
+                text = {
+                    "{C:attention}+#1#{} hand size,",
+                    "discard at most {C:attention}#2#{}",
+                    "cards at once"
+                },
+            },
+            j_trousers = {
+                text = {
+                    "This Jokers gains and gives",
+                    "{C:mult}+#1#{} Mult and {C:chips}+#2#{} Chips",
+                    "if played hand contains",
+                    "a {C:attention}#3#",
+                    "{C:inactive}(Currently {C:red}+#4#{C:inactive} Mult and {C:chips}+#5#{C:inactive} Chips)",
+                },
+            },
+            j_todo_list = {
+                text = {
+                    "Gains {X:mult,C:white}X#1#{} Mult the first time",
+                    "{C:attention}poker hand{} is a {C:attention}#2#{} this round,",
+                    "poker hand changes at end of round",
+                    "{C:inactive}(Currently {X:mult,C:white}X#3#{C:inactive} Mult)"
                 }
             },
         },

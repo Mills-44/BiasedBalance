@@ -79,7 +79,12 @@ BiasedBalance.Joker_Tweaks = {
     "troubadour",
     "trousers",
 -- Rare
-
+    "card_sharp",
+    "hologram",
+    "stuntman",
+    "tribe",
+    "trio", 
+    "vagabond"
 -- Legendary 
 -- ||   WIP   ||
 -- Common
@@ -87,7 +92,7 @@ BiasedBalance.Joker_Tweaks = {
 -- Uncommon 
 
 -- Rare
-
+-- "invisible"
 -- Legendary 
 }
 BiasedBalance.Planet_Tweaks = {

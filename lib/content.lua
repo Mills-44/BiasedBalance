@@ -60,7 +60,8 @@ BiasedBalance.Spectral_Tweaks = {
 }
 BiasedBalance.Tarot_Tweaks = {
 -- ||   RELEASED   ||
-
+    "lovers",
+    "strength"
 -- ||   WIP   ||
 }
 BiasedBalance.Joker_Tweaks = {
@@ -131,4 +132,7 @@ BiasedBalance.Edition_Tweaks = {
 }
 BiasedBalance.Enhancement_Tweaks = {
     "wild",
+}
+BiasedBalance.Rarity_Tweaks = {
+    "rarity",
 }

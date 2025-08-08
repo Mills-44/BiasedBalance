@@ -1,4 +1,4 @@
--- Adds
+-- ||       ADDITIONS        ||
 BiasedBalance.Back_Adds = {
 -- ||   RELEASED   ||
     "Teal",
@@ -10,7 +10,35 @@ BiasedBalance.Back_Adds = {
     -- "Purple",
 }
 
--- Tweaks
+BiasedBalance.Joker_Adds = {
+-- ||   RELEASED   ||
+    
+-- ||   WIP   ||
+    -- "ballerina",
+    -- "caviar",
+    -- "conspiracy",
+    -- "discounted_joker",
+    -- "eldritch_joker",
+    -- "electic_joker",
+    -- "everhungry_joker",
+    -- "hypernova",
+    -- "impatient_joker",
+    -- "jokerdex",
+    -- "missing_piece",
+    -- "mystery_box",
+    -- "ominous_concoction",
+    -- "peafowl",
+    -- "pitiful_joker",
+    -- "platnium_joker",
+    -- "practical_perfectionist",
+    -- "short_fuse",
+    -- "smurf",
+    -- "terrace_garden",
+    -- "wallpaper",
+    -- "wysteria_joker"
+}
+
+-- ||       TWEAKS        ||
 BiasedBalance.Back_Tweaks = {
 -- ||   RELEASED   ||
     "ghost",

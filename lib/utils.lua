@@ -119,3 +119,32 @@ for _, tag_type in ipairs(rare_sticker_tags) do
         end
     })
 end
+
+-- Referenced in lovely.toml
+function BiasedBalance.magic_trick()
+    return (G.GAME.used_vouchers["v_magic_trick"] and pseudorandom(pseudoseed('illusion')) > (G.GAME.used_vouchers["v_illusion"] and 0.4 or 0.6)) and
+        'Enhanced' or 'Base'
+end
+
+-- Edition Functionality
+BiasedBalance.edition_buffer = {}
+
+-- Cost Set
+local raw_Card_set_cost = Card.set_cost
+function Card:set_cost(...)
+    if self.config.center.key == 'j_biasedBalance_FreeLunch' then
+        self.sell_cost = -35
+        self.cost = -30
+        self.sell_cost_label = self.facing == 'back' and '?' or self.sell_cost
+        return
+    end
+
+    local ret = { raw_Card_set_cost(self, ...) }
+
+    if self.config.center.set == 'Joker' and next(SMODS.find_card 'j_biasedBalance_DeathAndTaxes') then
+        self.sell_cost = 0
+        self.sell_cost_label = self.facing == 'back' and '?' or self.sell_cost
+    end
+
+    return unpack(ret)
+end

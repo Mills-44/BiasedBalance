@@ -12,7 +12,42 @@ BiasedBalance.Back_Adds = {
 
 BiasedBalance.Joker_Adds = {
 -- ||   RELEASED   ||
-    
+-- Common
+    "caviar",
+    "my_green_joker",
+    "impatient_joker",
+    "jumbo",
+    "peafowl",
+    "pitiful_joker",
+    "practical_perfectionist",
+    "terrace_garden",
+-- Uncommon
+    "anchor",
+    "alien_joker",
+    "cinemaphile",
+    "chimera",
+    "free_lunch",
+    "leprechaun",
+    "osmosis",
+    "poacher",
+    "red_sun",
+    "spooky",
+    "snob",
+    "trinity",
+    "toucan",
+    "white_hole",
+-- Rare
+    "blunted_impact",
+    "bookworm",
+    "brash_gambler",
+    "court",
+    "death_and_taxes",
+    "flavorful_joker",
+    "minstrel",
+    "parvenu",
+    "rivals",
+    "skipper",
+-- Legendary
 -- ||   WIP   ||
     -- "ballerina",
     -- "caviar",
@@ -83,6 +118,7 @@ BiasedBalance.Joker_Tweaks = {
     "gift",
     "gluttenous",
     "greedy",
+    "green_joker",
     "hiker",
     "joker",
     "lusty",
@@ -104,7 +140,7 @@ BiasedBalance.Joker_Tweaks = {
     "rough_gem",
     "seance",
     "steel",
-    "to_do",
+    "to_do_list",
     "troubadour",
     "trousers",
 -- Rare
@@ -149,4 +185,10 @@ BiasedBalance.Enhancement_Tweaks = {
 }
 BiasedBalance.Rarity_Tweaks = {
     "rarity",
+}
+BiasedBalance.Voucher_Tweaks = {
+    "illusion",
+}
+BiasedBalance.Stake_Tweaks = {
+    "blue",
 }

@@ -1,8 +1,8 @@
 local function ban()
     local banned_jokers = {
         { "8_ball", "smiley", "superposition", "walkie_talkie" }, -- Commons
-        { "ceremonial", "loyalty_card", "dusk", "seeing_double", "matador", "acrobat" },
-        { "campfire" }
+        { "ceremonial", "loyalty_card", "dusk", "seeing_double", "matador", "acrobat" }, -- Uncommon
+        { "campfire" } -- Rare
     }
 
     local function ban_one(key, rarity)

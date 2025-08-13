@@ -52,6 +52,7 @@ return {
             },
         },
         Joker = {
+        -- ||   TWEAKED JOKERS    ||
             -- Common 
             j_flash={
                 name = "Flash Card",
@@ -151,11 +152,230 @@ return {
                 },
             },
             
-            -- Rare
+        -- Rare
 
-            -- Legendary
+        -- Legendary
+    -- ||   ADDED JOKERS    ||
+        -- Common 
+            j_biasedBalance_my_green_joker={
+                name="Green Joker",
+                text={
+                   "{C:mult}+#1#{} Mult per scoring hands with {C:attention}+4",
+                   "{C:mult}-#1#{} Mult if it does not",
+                  "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)",
+                },
+            },
+            j_biasedBalance_practical_perfectionist = {
+                name = "Practical Perfectionist",
+                text = { 
+                    "Any scoring hands with",
+                    "{C:attention}+5{} scored cards",
+                    "earn {C:gold}$#1#{}"
+                }
+            },
+            j_biasedBalance_pitiful_joker = {
+                name = "Pitiful Joker",
+                text = {
+                    "{C:red}+#1#{} Mult",
+                    "if hand is played",
+                    "with {C:money}$#2#{} or less",
+                }
+            },
+            j_biasedBalance_terrace_garden = {
+                name = "Terrace",
+                text = { "Earn {C:money}$#1#{} per Joker", "at end of round", "{C:inactive}(Will give {C:money}$#2#{C:inactive})" }
+            },
+            j_biasedBalance_jumbo = {
+                name = "Jumbo",
+                text = {
+                    "{C:mult}+#1#{} Mult,",
+                    "{C:dark_edition}-#2#{} Joker slot"
+                }
+            },
+        -- Uncommon
+            j_biasedBalance_anchor = {
+                name = "The Anchor",
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult if current",
+                    "score has {C:chips}#2#{} Chips or more"
+                }
+            },
+            j_biasedBalance_alien_joker = {
+                name = "Alien Joker",
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult per Poker Hand",
+                    "leveled {C:attention}#2#{} or higher",
+                    "{C:inactive}Currently {X:mult,C:white}X#3#{C:inactive} Mult)"
+                }
+            },
+            j_biasedBalance_cinemaphile = {
+                name = "Cinemaphile",
+                text = { "Sell this card to",
+                    "add a {C:attention}Voucher{} to the shop", }
+            },
+            j_biasedBalance_free_lunch = {
+                name = '"Free" Lunch',
+                text = {
+                    "Costs {C:money}-$#1#",
+                    "Sells for {C:money}-$#2#"
+                }
+            },
+            j_biasedBalance_leprechaun = {
+                name = 'Leprechaun',
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult if you",
+                    "have {C:money}$#2#{} or more"
+                }
+            },
+            j_biasedBalance_osmosis = {
+                name = 'Osmosis',
+                text = {
+                    "{C:mult}+#1#{} Mult per card above",
+                    "{C:attention}#2#{} in your full deck",
+                    "{C:inactive}(Currently {C:mult}+#3#{C:inactive} Mult)"
+                }
+            },
+            j_biasedBalance_red_sun = {
+                name = "Red Sun",
+                text = { 
+                    "{X:mult,C:white}X#1#{} Mult if played hand",
+                    "contains both a {C:diamonds}Diamond{} and {C:hearts}Heart", 
+                    "card and no other suits" 
+                }
+            },
+            j_biasedBalance_spooky = {
+                name = "Spooky Joker",
+                text = {
+                    "{C:green}#1# in #2#{} chance to",
+                    "add a random {C:dark_edition}edition{}",
+                    "to a random played card"
+                }
+            },
+            j_biasedBalance_snob = {
+                name = "Snob",
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult,",
+                    "{X:mult,C:white}-X#2#{} Mult per {C:attention}2{}, {C:attention}3{}, {C:attention}4{},",
+                    "{C:attention}5{}, and {C:attention}6{} in your full deck",
+                    "{C:inactive}Currently {X:mult,C:white}X#3#{C:inactive} Mult)"
+                }
+            },
+            j_biasedBalance_trinity = {
+                name = "Trinity",
+                text = { 
+                    "{X:mult,C:white}X#1#{} Mult if played hand", 
+                    "contains at least {C:attention}#2#{} suits" 
+                }
+            },
+            j_biasedBalance_white_hole = {
+                name = "White Hole",
+                text = { 
+                    "After {C:attention}#1#{} rounds,",
+                    "sell this card to",
+                    "{C:planet}level up{} every {C:attention}Poker Hand",
+                    "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)", 
+                }
+            },
+        -- Rare
+            j_biasedBalance_rivals = {
+                name = "The Rivals",
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult if played",
+                    "hand contains",
+                    "a {C:attention}#2#",
+                }
+            },
+            j_biasedBalance_blunted_impact = {
+                name = "Blunted Impact",
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult if played hand",
+                    "is different from the",
+                    "previous this {C:attention}round",
+                    "{C:inactive}(Currently {C:attention}#2#{C:inactive})"
+                }
+            },
+            j_biasedBalance_bookworm = {
+                name = "Bookworm",
+                text = {
+                    "{C:chips}+#1#{} Chips if played",
+                    "{C:attention}poker hand{} is {C:red}not",
+                    "your most played"
+                }
+            },
+            j_biasedBalance_brash_gambler = {
+                name = "Brash Gambler",
+                text = {
+                    "{C:green}#1# in #2#{} chance for {X:mult,C:white}X#3#{} Mult,",
+                    "{C:green}#1# in #4#{} chance for {X:mult,C:white}X#5#{} Mult",
+                }
+            },
+            j_biasedBalance_court = {
+                name = "The Court",
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult if played hand",
+                    "only contains {C:attention}Face Cards"
+                }
+            },
+            j_biasedBalance_death_and_taxes = {
+                name = "Death and Taxes",
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult if a Joker",
+                    "was sold this round,",
+                    "Jokers sell for {C:money}$0"
+                }
+            },
+            j_biasedBalance_flavourful_joker = {
+                name = "Flavourful Joker",
+                text = {
+                    "{C:chips}+#1#{} Chips per Joker",
+                    "with an {C:dark_edition}Edition"
+                }
+            },
+            j_biasedBalance_parvenu = {
+                name = "The Parvenu",
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult if played hand",
+                    "contains {C:red}no{} {C:attention}Face Cards"
+                }
+            },
+            j_biasedBalance_skipper = {
+                name = "Skipper",
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult if a Blind",
+                    "was {C:attention}skipped{} this {C:attention}round"
+                }
+            },
+            j_biasedBalance_minstrel = {
+                name = "Minstrel",
+                text = {
+                    "{C:attention}+#1#{} discards,",
+                    "discard at most {C:attention}#2#{}",
+                    "cards at once"
+                }
+            },
+        -- Legendary
+        },
+        Other = {
+        -- ||   ADDED BOOSTERS   ||
+            p_biasedBalance_Sacrifice = {
+                name = 'Sacrifice Pack',
+                text = {
+                    "Choose {C:attention}#1#{} cards,",
+                    "{C:red}destroy{} the left {C:attention}#2#{},",
+                    "give the rest a random {C:dark_edition}edition"
+                }
+            },
+            p_biasedBalance_GigaStandard = {
+                name = 'Giga Standard Pack',
+                text = {
+                    "Choose {C:attention}#1#{} of up to",
+                    "{C:attention}#2# Playing{} cards to",
+                    "add to your deck",
+                }
+            },
         },
         Spectral = {
+        -- ||   TWEAKED SPECTRALS    ||
             c_ankh = {
                 text = {
                     "Create a copy of",
@@ -170,7 +390,6 @@ return {
                     "to {C:attention}1{} selected card in hand",
                 }
             },
-        },
         c_familiar = {
                 text = {
                     "Destroy {C:attention}#1#{} selected",
@@ -207,7 +426,110 @@ return {
                 "{C:red}Rare{C:attention} Joker{},",
                 "lose up to {C:money}$#1#",
                 },
-            }, 
+            },
+        -- ||   ADDED SPECTRALS    ||
+
+        },
+        Stake = {
+            stake_blue = {
+                text = {
+                    "Reroll costs scale {C:money}$1{} faster",
+                    "{s:0.8}Applies all previous Stakes",
+                },
+            },
+        },
+        Tarot = {
+            c_lovers = {
+                text = {
+                    "Enhances {C:attention}#1#{} selected",
+                    "cards into a",
+                    "{C:attention}#2#",
+                },
+            },
+            c_strength = {
+                text = {
+                    "Increases rank of",
+                    "up to {C:attention}3{} selected",
+                    "cards by {C:attention}1",
+                }
+            },
+        },
+        Tag = {
+            tag_meteor = {
+                text = { 
+                    "{C:planet}Upgrades{} all", 
+                    "{C:attention}Poker Hands{} once" 
+                }
+            },
+            tag_boss = {
+                text = { 
+                    "Disables effect of", 
+                    "next {C:attention}Boss Blind", 
+                    "{s:0.8,C:inactive}(Can't be copied)" 
+            }
+            },
+            tag_juggle = {
+                text = { 
+                    "{C:attention}+#1#{} hand size for", 
+                    "the next {C:attention}#2#{} rounds" 
+                }
+            },
+            tag_garbage = {
+                text = { 
+                    "{C:red}+#1#{} discards for", 
+                    "the next {C:attention}#2#{} rounds" 
+                }
+            },
+            tag_economy = {
+                text = { 
+                    "Doubles your money", 
+                    "{C:inactive}(Max of {C:money}$#1#{C:inactive},", 
+                    "{C:inactive}Min of {C:money}$#2#{C:inactive})", 
+                }
+            },
+            tag_standard = {
+                text = {
+                    "Gives a free",
+                    "{C:attention}Giga Standard Pack",
+                }
+            },
+        },
+        Voucher = {
+             v_omen_globe = {
+                text = {
+                    "{C:spectral}Spectral{} cards may",
+                    "appear in any of",
+                    "the {C:tarot}Arcana{} or {C:planet}Celestial{} Packs",
+                },
+            },
+            v_illusion = {
+                text = {
+                    "{C:attention}Playing cards{} in shop",
+                    "always have an {C:enhanced}Enhancement{},",
+                    "{C:dark_edition}Edition{}, and/or a {C:attention}Seal{}",
+                }
+            },
+            v_hone = {
+                text = {
+                    "{C:dark_edition}Editioned{} cards",
+                    "appear {C:attention}#1#X{} more often",
+                }
+            },
+            v_glow_up = {
+                text = {
+                    "{C:dark_edition}Editioned{} cards",
+                    "appear {C:attention}#1#X{} more often",
+                }
+            },
+            v_planet_merchant={
+                name="Planet Merchant",
+                text={
+                    "{C:planet}Planet{} cards appear",
+                    "{C:attention}#1#X{} more frequently",
+                    "in the shop",
+                },
+            },
+        },
     },
     misc = {
         dictionary = {

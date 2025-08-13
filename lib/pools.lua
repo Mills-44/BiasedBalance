@@ -26,6 +26,7 @@ BiasedBalance.Common_Jokers = {
     "blue_joker",
     "bootstrap",
     "business",
+    "castle",
     "chaos",
     "clever",
     "cloud_9",

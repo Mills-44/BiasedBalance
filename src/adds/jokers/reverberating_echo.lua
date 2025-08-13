@@ -1,28 +1,31 @@
 SMODS.Joker {
     atlas = "Joker",
-    key = "PitifulJoker",
+    key = "Reverberating_Echo",
     pos = {
-        x = 1,
+        x = 0,
         y = 0
     },
-    rarity = 1,
-    cost = 3,
+    rarity = 2,
+    cost = 6,
     blueprint_compat = true,
     eternal_compat = true,
     perishable_compat = true,
     config = {
         extra = {
-            mult = 12,
-            money = 10
+            xmult = 1.1
         }
     },
     loc_vars = function(self, info_queue, card)
-        return { vars = { card.ability.extra.mult, card.ability.extra.money } }
+        return { 
+            vars = { 
+                card.ability.extra.xmult
+        } 
+    }
     end,
     calculate = function(self, card, context)
-        if context.joker_main and le(G.GAME.dollars, card.ability.extra.money) then
+        if context.individual and context.cardarea == G.play then
             return {
-                mult = card.ability.extra.mult
+                xmult = card.ability.extra.xmult
             }
         end
     end

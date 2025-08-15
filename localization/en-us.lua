@@ -306,6 +306,15 @@ return {
                 text = { "Sell this card to",
                     "add a {C:attention}Voucher{} to the shop", }
             },
+            j_biasedBalance_crystal_cave = {
+                name = "Crystal Cave",
+                text = { 
+                    "This Joker gains {X:mult,C:white}X#1#{} Mult",
+                    "For every {C:hearts}Heart{} or {C:diamonds}Diamond{} scored",
+                    "Resets at end of round",
+                    "Currently: {X:mult,C:white}X#2#{} Mult"
+                }
+            },
             j_biasedBalance_esteemed_audience = {
                 name = "Esteemed Audience",
                 text = { 

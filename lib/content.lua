@@ -53,7 +53,7 @@ BiasedBalance.Joker_Adds = {
     --"chimera",
     --"chisel",
     --"ciertzew",
-    --"crystal_cave",
+    "crystal_cave",
     --"dark_forest",
     --"dawn",
     "esteemed_audience",

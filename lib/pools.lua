@@ -160,7 +160,7 @@ BiasedBalance.Tarots = {
     "high_priestess",
     "empress",
     "emperor",
-    "hierophant",
+    "heirophant",
     "lovers",
     "chariot",
     "justice",
@@ -201,3 +201,7 @@ BiasedBalance.Spectrals = {
     "biasedBalance_Awakening",
     "biasedBalance_Sacrifice", 
 }
+
+--BiasedBalance.Utility_Jokers {
+    
+--}

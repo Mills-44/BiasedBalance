@@ -156,7 +156,25 @@ return {
 
         -- Legendary
     -- ||   ADDED JOKERS    ||
-        -- Common 
+        -- Common
+            j_biasedBalance_eldritch_joker= {
+                name = "Eldritch Joker",
+                text = { 
+                    "This {C:attention}Joker{} gains",
+                    "{X:mult,C:white}X#1#{} Mult after every",
+                    "card scored in played hands",
+                    "Currently: {X:mult,C:white}X#2#{} Mult"
+                }
+            },
+            j_biasedBalance_everhungry_joker = {
+                name = "Everhungry Joker",
+                text = { 
+                    "This {C:attention}Joker{} gains",
+                    "{C:mult}+#1#{} Mult if any",
+                    "consumable is used",
+                    "Currently: {C:mult}+#2#{} Mult"
+                }
+            },
             j_biasedBalance_my_green_joker={
                 name="Green Joker",
                 text={
@@ -164,6 +182,40 @@ return {
                    "{C:mult}-#1#{} Mult if it does not",
                   "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)",
                 },
+            },
+             j_biasedBalance_my_ride_the_bus={
+                name = "Ride the Bus",
+                text = {
+                    "This Joker gains {C:mult}+#1#{} Mult",
+                    "played without a",
+                    "scoring {C:attention}Face{} card",
+                    "{C:mult}-#2#{} Mult if it does",
+                    "{C:inactive}(Currently {C:mult}+#3#{C:inactive} Mult)",
+                },
+            },
+            j_biasedBalance_mystery_box = {
+                name = "Mystery Box",
+                text = { 
+                    "When a {C:attention}Blind{} is skipped",
+                    "Destroy this {C:attention}Joker{} and",
+                    "create a random {C:attention}Rare Joker",
+                    "and {C:tarot}2 Tarot cards"
+                }
+            }, j_biasedBalance_kestrel = {
+                name = "Kestrel",
+                text = { 
+                    "{C:mult}+#1#{} Mult for every",
+                    "enhanced cards in deck",
+                    "Currently: {C:mult}+#2#{} Mult"
+                }
+            },
+            j_biasedBalance_monument = {
+                name = "Monument",
+                text = {
+                    "This {C:attention}Joker{} gains {C:mult}+#1#{} Mult",
+                    "If scoring hand contains a {C:attention}Face{} card",
+                    "Currently: {C:mult}+#2#{} Mult"
+                }
             },
             j_biasedBalance_practical_perfectionist = {
                 name = "Practical Perfectionist",
@@ -190,6 +242,24 @@ return {
                 text = {
                     "{C:mult}+#1#{} Mult,",
                     "{C:dark_edition}-#2#{} Joker slot"
+                }
+            },
+            j_biasedBalance_wallpaper = {
+                name = "Wallpaper",
+                text = { 
+                    "{C:white,X:mult}X#1#{} Mult if all", 
+                    "cards held in hand", 
+                    "are {C:attention}2{} suits only"
+                }
+            },
+            j_biasedBalance_wisteria_joker = {
+                name = "Wisteria Joker",
+                text = { 
+                    "This {C:attention}Joker{} gains",
+                    "{C:chips}+#1#{} Chips if any scoring",
+                    "hands with {C:attention}+5{} cards",
+                    "or {C:chips}-#2#{} chips if not",
+                    "Currently: {C:chips}+#3#{} Chips"
                 }
             },
         -- Uncommon

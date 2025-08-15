@@ -14,13 +14,20 @@ BiasedBalance.Joker_Adds = {
 -- ||   RELEASED   ||
 -- Common
     "caviar",
-    "my_green_joker",
+    "eldritch_joker",
+    "everhungry_joker",
     "impatient_joker",
     "jumbo",
+    "kestrel",
+    "monument",
+    "my_green_joker",
+    "my_ride_the_bus",
+    "mystery_box",
     "peafowl",
     "pitiful_joker",
     "practical_perfectionist",
     "terrace_garden",
+    "wisteria_joker",
 -- Uncommon
     "anchor",
     "alien_joker",
@@ -65,12 +72,10 @@ BiasedBalance.Joker_Adds = {
     -- "peafowl",
     -- "pitiful_joker",
     -- "platnium_joker",
-    -- "practical_perfectionist",
     -- "short_fuse",
     -- "smurf",
     -- "terrace_garden",
     -- "wallpaper",
-    -- "wysteria_joker"
 }
 
 -- ||       TWEAKS        ||
@@ -118,7 +123,6 @@ BiasedBalance.Joker_Tweaks = {
     "gift",
     "gluttenous",
     "greedy",
-    "green_joker",
     "hiker",
     "joker",
     "lusty",

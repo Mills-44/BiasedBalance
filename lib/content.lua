@@ -21,10 +21,10 @@ BiasedBalance.Joker_Adds = {
     --"eclectic_joker",
     --"envious",
     "everhungry_joker",
-    "impatient_joker",
+    --"impatient_joker",
     --"jokerdex",
     "jumbo",
-    "kestrel",
+    --"kestrel",
     --"last_dance",
     --"listless",
     --"missing_piece",
@@ -72,7 +72,7 @@ BiasedBalance.Joker_Adds = {
    --"osmosis",
    --"ouroboros"
    --"pierogi",
-    "poacher",
+    --"poacher",
     --"platinum_ticket",
     "red_sun",
     --"reverberating_echo",
@@ -101,7 +101,7 @@ BiasedBalance.Joker_Adds = {
     "minstrel",
     "parvenu",
     "rivals",
-    "skipper",
+    --"skipper",
 -- Legendary
 }
 

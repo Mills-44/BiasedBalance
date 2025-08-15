@@ -180,6 +180,7 @@ return {
                     "This {C:attention}Joker{} gains",
                     "{X:mult,C:white}X#1#{} Mult after every",
                     "card scored in played hands",
+                    "{C:inactive}(Resets at end of round)",
                     "Currently: {X:mult,C:white}X#2#{} Mult"
                 }
             },

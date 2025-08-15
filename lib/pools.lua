@@ -202,6 +202,18 @@ BiasedBalance.Spectrals = {
     "biasedBalance_Sacrifice", 
 }
 
+BiasedBalance.Poker_Hands = {
+    "Straight Flush",
+    "Four of a Kind",
+    "Full House",
+    "Flush",
+    "Straight",
+    "Three of a Kind",
+    "Two Pair",
+    "Pair",
+    "High Card"
+}
+
 --BiasedBalance.Utility_Jokers {
     
 --}

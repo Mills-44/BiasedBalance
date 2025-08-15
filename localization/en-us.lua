@@ -157,6 +157,23 @@ return {
         -- Legendary
     -- ||   ADDED JOKERS    ||
         -- Common
+            j_biasedBalance_alchemist= {
+                name = "Alchemist",
+                text = { 
+                    "At start of each round",
+                    "{C:chips}+#1#{} Hand",
+                    "{C:mult}-#2#{} Discard"
+                }
+            },
+            j_biasedBalance_ballerina= {
+                name = "Ballerina",
+                text = { 
+                    "Play 3 different scoring hands",
+                    "consecutively and level up",
+                    "one random hand, create a random",
+                    "{C:tarot}Tarot card{} and gain {C:gold}$#1#"
+                }
+            },
             j_biasedBalance_eldritch_joker= {
                 name = "Eldritch Joker",
                 text = { 

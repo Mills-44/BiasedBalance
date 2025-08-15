@@ -234,6 +234,12 @@ return {
                     "Currently: {C:mult}+#2#{} Mult"
                 }
             },
+            j_biasedBalance_peafowl = {
+                name = "Peafowl",
+                text = {
+                    "{C:attention}Enhancements{} are", "{C:attention}#1#%{} stronger"
+                }
+            },
             j_biasedBalance_practical_perfectionist = {
                 name = "Practical Perfectionist",
                 text = { 
@@ -299,6 +305,14 @@ return {
                 name = "Cinemaphile",
                 text = { "Sell this card to",
                     "add a {C:attention}Voucher{} to the shop", }
+            },
+            j_biasedBalance_esteemed_audience = {
+                name = "Esteemed Audience",
+                text = { 
+                    "{C:mult}+#1#{} Mult for every scored", 
+                    "{C:}Face card in played hands",
+                    "Currently: {C:mult}+#2#{} Mult"
+                }
             },
             j_biasedBalance_free_lunch = {
                 name = '"Free" Lunch',

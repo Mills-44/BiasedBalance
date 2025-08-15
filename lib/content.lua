@@ -56,7 +56,7 @@ BiasedBalance.Joker_Adds = {
     --"crystal_cave",
     --"dark_forest",
     --"dawn",
-    --"esteemed_audience",
+    "esteemed_audience",
     --"end_of_days",
     "free_lunch",
     --"gourmet",

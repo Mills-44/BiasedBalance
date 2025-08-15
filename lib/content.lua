@@ -132,7 +132,6 @@ BiasedBalance.Tarot_Tweaks = {
 -- ||   WIP   ||
 }
 BiasedBalance.Joker_Tweaks = {
--- ||   RELEASED   ||
 -- Common
     "banner",
     "bootstrap",
@@ -181,15 +180,7 @@ BiasedBalance.Joker_Tweaks = {
     "tribe",
     "trio", 
     "vagabond"
--- Legendary 
--- ||   WIP   ||
--- Common
-
--- Uncommon 
-
--- Rare
--- "invisible"
--- Legendary 
+    -- "invisible"
 }
 BiasedBalance.Tag_Tweaks = {
     "boss",

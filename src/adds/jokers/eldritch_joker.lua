@@ -34,7 +34,7 @@ SMODS.Joker {
             }
         end
         if context.end_of_round then 
-            card.ability.extra.xmult = 0
+            card.ability.extra.xmult = 1
             return {
                 message = "Reset!",
                 colour = G.C.FILTER

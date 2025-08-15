@@ -1,11 +1,11 @@
 SMODS.Joker {
     atlas = "Joker",
-    key = "Esteemed_Audience",
+    key = "esteemed_audience",
     pos = {
         x = 0,
         y = 0
     },
-    rarity = 3,
+    rarity = 2,
     cost = 8,
     blueprint_compat = true,
     eternal_compat = true,

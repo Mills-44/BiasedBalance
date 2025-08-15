@@ -1,8 +1,8 @@
 SMODS.Joker {
     key = "practical_perfectionist",
-    atlas = "Joker",
+    atlas = "Joker2",
     pos = {
-        x = 1,
+        x = 0,
         y = 0
     },
     rarity = 1,

@@ -400,6 +400,13 @@ return {
                     "have {C:money}$#2#{} or more"
                 }
             },
+            j_biasedBalance_lingering_resentment= {
+                name = "Lingering Resentment",
+                text = { 
+                    "{X:mult,C:white}X#1#{} Mult",
+                    "{C:mult}-1{} Discard"
+                }
+            },
             j_biasedBalance_negative_norman = {
                 name = "Negative Norman",
                 text = { 
@@ -413,6 +420,15 @@ return {
                     "{C:mult}+#1#{} Mult per card above",
                     "{C:attention}50{} in your full deck",
                     "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)"
+                }
+            },
+            j_biasedBalance_ouroboros = {
+                name = "Ouroboros",
+                text = { 
+                    "This {C:attention}Joker{} gains",
+                    "{X:mult,C:white}X#1#{} Mult every {C:attention}#3#{} times",
+                    "A {C:attention}4 or 8{} is scored",
+                    "Currently: {X:mult,C:white}X#2#{} Mult"
                 }
             },
             j_biasedBalance_pierogi = {
@@ -435,12 +451,27 @@ return {
                     "card and no other suits" 
                 }
             },
+            j_biasedBalance_reverberating_echo = {
+                name = "Reverberating Echo",
+                text = { 
+                    "{X:mult,C:white}X#1#{} Mult",
+                    "for every scoring card"
+                }
+            },
             j_biasedBalance_shameless_profit = {
                 name = "Shameless Profit",
                 text = { 
                     "Earn {C:gold}$#1#{} at end of the round",
                     "When a {C:attention}Blind{} is skipped",
                     "This {C:attention}Joker{} gains {C:gold}$1{} "
+                }
+            },
+            j_biasedBalance_solitude = {
+                name = "Solitude",
+                text = { 
+                    "This {C:attention}Joker{} gives",
+                    "{X:mult,C:white}X#1#{} Mult if scoring hand",
+                    "doesn't contain a {C:attention}Pair"
                 }
             },
             j_biasedBalance_spooky = {
@@ -489,7 +520,23 @@ return {
                     "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)", 
                 }
             },
+            j_biasedBalance_wildflower_honey = {
+                name = "Wildflower Honey",
+                text = { 
+                    "Gain {C:gold}$#1#{} every skipped",
+                    "{C:attention}Blind{} or end of round",
+                    "Decreases {C:gold}$1{} each time trigger"
+                }
+            },
         -- Rare
+            j_biasedBalance_aristocrat = {
+                name = "Aristocrat",
+                text = {
+                    "Every {C:attention}Face card{} gives",
+                    "{C:chips}+#1#{} Chips in full deck",
+                    "Currently: {C:chips}+#2#{} Chips"
+                }
+            },
             j_biasedBalance_rivals = {
                 name = "The Rivals",
                 text = {
@@ -564,6 +611,14 @@ return {
                     "{C:attention}+#1#{} discards,",
                     "discard at most {C:attention}#2#{}",
                     "cards at once"
+                }
+            },
+            j_biasedBalance_velvet_choker= {
+                name = "Velvet Choker",
+                text = { 
+                    "{X:mult,C:white}X#1#{} Mult",
+                    "{C:mult}-1{} Discard",
+                    "{C:chips}-1{} Hand",
                 }
             },
         -- Legendary

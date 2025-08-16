@@ -65,21 +65,22 @@ BiasedBalance.Joker_Adds = {
     --"knave",
     --"joker_in_a_high_castle",
     "leprechaun",
-    --"lingering_resentment"
+    "lingering_resentment",
     --"mecha_joker",
     --"negative_nancy",
    "negative_norman",
    "osmosis",
-   --"ouroboros"
+   "ouroboros",
    "pierogi",
     "poacher",
     --"platinum_ticket",
     "red_sun",
-    --"reverberating_echo",
+    "reverberating_echo",
     --"rhondodendron",
     --"rhyme_time",
     "shameless_profit",
     --"spare",
+    "solitude",
     "spooky",
     "snob",
     --"stairs",
@@ -90,8 +91,9 @@ BiasedBalance.Joker_Adds = {
     "toucan",
     --"unusual",
     "white_hole",
-    --"wildflower_honey",
+    "wildflower_honey",
 -- Rare
+    "aristocrat",
     "blunted_impact",
     "bookworm",
     "brash_gambler",
@@ -102,6 +104,7 @@ BiasedBalance.Joker_Adds = {
     "parvenu",
     "rivals",
     --"skipper",
+    "velvet_choker"
 -- Legendary
 }
 
@@ -179,8 +182,9 @@ BiasedBalance.Joker_Tweaks = {
     "stuntman",
     "tribe",
     "trio", 
-    "vagabond"
+    "vagabond",
     -- "invisible"
+    "yorick"
 }
 BiasedBalance.Tag_Tweaks = {
     "boss",

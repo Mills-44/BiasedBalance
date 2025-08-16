@@ -1,6 +1,6 @@
 SMODS.Joker {
     atlas = "Joker",
-    key = "Stairs",
+    key = "stairs",
     pos = {
         x = 0,
         y = 0

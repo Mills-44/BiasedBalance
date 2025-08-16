@@ -1,6 +1,6 @@
 SMODS.Joker {
     atlas = "Joker",
-    key = "Gourmet",
+    key = "gourmet",
     pos = {
         x = 0,
         y = 0
@@ -35,7 +35,7 @@ SMODS.Joker {
         if context.using_consumeable then
             card.ability.extra.mult = card.ability.extra.mult + card.ability.extra.mult_gain
             return {
-                message = "+3 Mult!",
+                message = "+" .. card.ability.extra.mult_gain .. " Mult!",
                 colour = G.C.FILTER
             }
         end

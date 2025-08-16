@@ -1,6 +1,6 @@
 SMODS.Joker {
     atlas = "Joker",
-    key = "Dark_Forest",
+    key = "dark_forest",
     pos = {
         x = 0,
         y = 0
@@ -13,28 +13,28 @@ SMODS.Joker {
     config = { 
         extra = { 
             xmult = 3,
-            xmult_gain = .07
+            xmult_lose = .07
         } 
     },
     loc_vars = function(self, info_queue, card)
         return { 
             vars = { 
-                card.ability.extra.xmult_gain,
+                card.ability.extra.xmult_lose,
                 card.ability.extra.xmult
         } 
     }
     end,
     calculate = function(self, card, context)
-        if context.before then
-        for _, c in ipairs(G.playing_cards or {}) do
-            if c:is_suit("Diamonds") then
-                card.ability.extra.xmult = card.ability.extra.xmult - card.ability.extra.xmult_gain
-            elseif c:is_suit("Hearts") then
-                card.ability.extra.xmult = card.ability.extra.xmult - card.ability.extra.xmult_gain
-            end
-        end
-        end
         if context.joker_main then
+            card.ability.extra.xmult = 3
+            for _, c in ipairs(G.playing_cards or {}) do
+                if c:is_suit('Diamonds') then
+                    card.ability.extra.xmult = card.ability.extra.xmult - card.ability.extra.xmult_lose
+                end
+                if c:is_suit('Hearts') then
+                    card.ability.extra.xmult = card.ability.extra.xmult - card.ability.extra.xmult_lose   
+                end
+            end
             return {
                 xmult = card.ability.extra.xmult
             }

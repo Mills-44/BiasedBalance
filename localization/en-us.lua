@@ -343,6 +343,15 @@ return {
                     "Currently: {X:mult,C:white}X#2#{} Mult"
                 }
             },
+            j_biasedBalance_dark_forest = {
+                name = "Dark Forest",
+                text = { 
+                    "This Joker loses {X:mult,C:white}X#1#{} Mult",
+                    "For every {C:hearts}Heart{} or {C:diamonds} Diamond",
+                    "card in your deck",
+                    "Currently: {X:mult,C:white}X#2#{} Mult"
+                }
+            },
             j_biasedBalance_esteemed_audience = {
                 name = "Esteemed Audience",
                 text = { 
@@ -356,6 +365,16 @@ return {
                 text = {
                     "Costs {C:money}-$#1#",
                     "Sells for {C:money}-$#2#"
+                }
+            },
+            j_biasedBalance_gourmet = {
+                name = "Gourmet",
+                text = { 
+                    "{C:attention}+1{} Consumable Slot",
+                    "This {C:attention}Joker{} gains {C:mult}+#1#{} Mult",
+                    "For every consumable used",
+                    "Resets every {C:attention}Boss Blind",
+                    "Currently: {C:mult}+#2#{} Mult"
                 }
             },
             j_biasedBalance_leprechaun = {
@@ -408,6 +427,15 @@ return {
                     "{X:mult,C:white}-X#2#{} Mult per {C:attention}2{}, {C:attention}3{}, {C:attention}4{},",
                     "{C:attention}5{}, and {C:attention}6{} in your full deck",
                     "{C:inactive}Currently {X:mult,C:white}X#3#{C:inactive} Mult)"
+                }
+            },
+            j_biasedBalance_stage_fright = {
+                name = "Stage Fright",
+                text = {
+                    "This {C:attention}Joker{} gains",
+                    "{C:chips}+#1#{} Chips per {C:attention}Face",
+                    "card scored in first hand",
+                    "Currently: {C:chips}+#2#{} Chips"
                 }
             },
             j_biasedBalance_trinity = {

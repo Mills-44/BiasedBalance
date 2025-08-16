@@ -44,7 +44,6 @@ local function ban()
         end
     end
     ban_one("c_grim")
-    
 end
 local raw_Game_init_item_prototypes = Game.init_item_prototypes
 function Game:init_item_prototypes()
@@ -53,4 +52,4 @@ function Game:init_item_prototypes()
 end
 
 ban()
---#endregion
+

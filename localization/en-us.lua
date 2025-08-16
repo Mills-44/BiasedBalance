@@ -796,12 +796,6 @@ return {
                     "the next {C:attention}#2#{} rounds" 
                 }
             },
-            tag_garbage = {
-                text = { 
-                    "{C:red}+#1#{} discards for", 
-                    "the next {C:attention}#2#{} rounds" 
-                }
-            },
             tag_economy = {
                 text = { 
                     "Doubles your money", 

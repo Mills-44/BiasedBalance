@@ -352,6 +352,14 @@ return {
                     "Currently: {X:mult,C:white}X#2#{} Mult"
                 }
             },
+            j_biasedBalance_end_of_days = {
+                name = "End Of Days",
+                text = { 
+                    "At the end of round",
+                    "If no hands left",
+                    "Create a random {C:dark_edition}Spectral{} card"
+                }
+            },
             j_biasedBalance_esteemed_audience = {
                 name = "Esteemed Audience",
                 text = { 
@@ -390,6 +398,14 @@ return {
                     "{C:mult}+#1#{} Mult per card above",
                     "{C:attention}50{} in your full deck",
                     "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)"
+                }
+            },
+            j_biasedBalance_pierogi = {
+                name = "Pierogi",
+                text = { 
+                    "This Joker loses {X:mult,C:white}X#1#{} Mult",
+                    "for every reroll used",
+                    "Currently: {X:mult,C:white}X#2#{} Mult"
                 }
             },
             j_biasedBalance_poacher = {

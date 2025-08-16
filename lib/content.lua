@@ -71,7 +71,7 @@ BiasedBalance.Joker_Adds = {
     --"negative_norman",
    "osmosis",
    --"ouroboros"
-   --"pierogi",
+   "pierogi",
     "poacher",
     --"platinum_ticket",
     "red_sun",

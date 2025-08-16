@@ -1,6 +1,6 @@
 SMODS.Joker {
     atlas = "Joker",
-    key = "Wildflower_Honey",
+    key = "wildflower_honey",
     pos = {
         x = 0,
         y = 0
@@ -26,10 +26,21 @@ SMODS.Joker {
         if context.skip_blind then
             ease_dollars(card.ability.extra.money)
             card.ability.extra.money = math.max(card.ability.extra.money - 1,0)
+            return {
+                message = "+$" .. card.ability.extra.money + 1 .. "!"
+            }
         end
-        if context.end_of_round then 
+        if context.end_of_round and context.cardarea == G.jokers then 
             ease_dollars(card.ability.extra.money)
             card.ability.extra.money = math.max(card.ability.extra.money - 1,0)
+            if card.ability.extra.money == 0 then
+                return {
+                    message = "No $ left!"
+                }
+            end
+            return {
+                message = "+$" .. card.ability.extra.money + 1 .. "!"
+            }
         end
     end
 }

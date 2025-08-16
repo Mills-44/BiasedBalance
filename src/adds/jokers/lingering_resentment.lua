@@ -1,6 +1,6 @@
 SMODS.Joker {
     atlas = "Joker",
-    key = "Lingering_Resentment",
+    key = "lingering_resentment",
     pos = {
         x = 0,
         y = 0
@@ -23,15 +23,16 @@ SMODS.Joker {
         } 
     }
     end,
-    add_to_deck = function(self, card, from_debuff)
-        G.GAME.round_resets.discards = G.GAME.round_resets.discards - card.ability.extra.d_size
-        ease_discard(card.ability.extra.d_size)
-    end,
-    remove_from_deck = function(self, card, from_debuff)
-        G.GAME.round_resets.discards = G.GAME.round_resets.discards + card.ability.extra.d_size
-        ease_discard(-card.ability.extra.d_size)
-    end,
     calculate = function(self, card, context)
+        if context.setting_blind then
+            G.E_MANAGER:add_event(Event({
+                func = function()
+                    ease_discard(-card.ability.extra.d_size, nil, true)
+                    return true
+                end
+            }))
+            return nil, true 
+        end
         if context.joker_main then 
             return {
                 xmult = card.ability.extra.xmult

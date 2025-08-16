@@ -1,6 +1,6 @@
 SMODS.Joker {
     atlas = "Joker",
-    key = "Reverberating_Echo",
+    key = "reverberating_echo",
     pos = {
         x = 0,
         y = 0
@@ -12,7 +12,7 @@ SMODS.Joker {
     perishable_compat = true,
     config = {
         extra = {
-            xmult = 1.1
+            xmult = 1.15
         }
     },
     loc_vars = function(self, info_queue, card)

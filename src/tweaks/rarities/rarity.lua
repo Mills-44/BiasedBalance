@@ -2,10 +2,10 @@ local function count_awakenings()
     return G.GAME.biasedBalance_awakening or 0
 end
 local function has_pink_deck()
-    return G.GAME.selected_back.effect.center.key == 'b_biasedBalance_Pink' and 1 or 0
+    return G.GAME.selected_back.effect.center.key == 'b_biasedBalance_pink' and 1 or 0
 end
 local function count_caviar()
-    return #SMODS.find_card('j_biasedBalance_Caviar')
+    return #SMODS.find_card('j_biasedBalance_caviar')
 end
 
 SMODS.Rarity:take_ownership("Common", {

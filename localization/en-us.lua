@@ -193,6 +193,19 @@ return {
                     "Currently: {C:mult}+#2#{} Mult"
                 }
             },
+            j_biasedBalance_impatient_joker = {
+                name = "Impatient Joker",
+                text = { "Earn {C:money}$#1#{} and gain",
+                    "{C:chips}+#2#{} Chips when",
+                    "skipping a Blind",
+                    "{C:inactive}(Currently {C:chips}+#3#{C:inactive} Chips)" }
+            },
+            j_biasedBalance_last_dance = {
+                name = "Last Dance",
+                text = { 
+                    "Retrigger {C:attention}2{} last scoring cards"
+                }
+            },
             j_biasedBalance_my_green_joker={
                 name="Green Joker",
                 text={
@@ -255,6 +268,14 @@ return {
                     "{C:red}+#1#{} Mult",
                     "if hand is played",
                     "with {C:money}$#2#{} or less",
+                }
+            },
+            j_biasedBalance_subversive = {
+                name = "Subversive Joker",
+                text = {
+                    "For every {C:chips}#2#{} Chips",
+                    "you score, This {C:attention}Joker{} gives",
+                    "{C:mult}#1#{} Mult and rounds down"
                 }
             },
             j_biasedBalance_terrace_garden = {

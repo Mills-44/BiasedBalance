@@ -148,3 +148,8 @@ function Card:set_cost(...)
 
     return unpack(ret)
 end
+
+-- Big Functionality
+function BiasedBalance.big(x)
+    return to_big and to_big(x) or x
+end

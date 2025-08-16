@@ -78,7 +78,7 @@ BiasedBalance.Joker_Adds = {
     --"reverberating_echo",
     --"rhondodendron",
     --"rhyme_time",
-    --"shameless_profit",
+    "shameless_profit",
     --"spare",
     "spooky",
     "snob",

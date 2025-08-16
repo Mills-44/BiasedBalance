@@ -385,6 +385,14 @@ return {
                     "card and no other suits" 
                 }
             },
+            j_biasedBalance_shameless_profit = {
+                name = "Shameless Profit",
+                text = { 
+                    "Earn {C:gold}$#1#{} at end of the round",
+                    "When a {C:attention}Blind{} is skipped",
+                    "This {C:attention}Joker{} gains {C:gold}$1{} "
+                }
+            },
             j_biasedBalance_spooky = {
                 name = "Spooky Joker",
                 text = {
@@ -408,6 +416,10 @@ return {
                     "{X:mult,C:white}X#1#{} Mult if played hand", 
                     "contains at least {C:attention}#2#{} suits" 
                 }
+            },
+            j_biasedBalance_toucan = {
+                name = "Toucan",
+                text = { "Retrigger all played", "{C:attention}enhanced{} cards" }
             },
             j_biasedBalance_white_hole = {
                 name = "White Hole",

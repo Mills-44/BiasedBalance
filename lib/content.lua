@@ -108,6 +108,10 @@ BiasedBalance.Joker_Adds = {
 -- Legendary
 }
 
+BiasedBalance.Spectral_Adds = {
+    "bagel_spectrals"
+}
+
 -- ||       TWEAKS        ||
 BiasedBalance.Back_Tweaks = {
 -- ||   RELEASED   ||

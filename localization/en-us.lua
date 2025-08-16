@@ -703,7 +703,54 @@ return {
                 },
             },
         -- ||   ADDED SPECTRALS    ||
-
+             c_biasedBalance_Sacrifice2 = {
+                name = 'Sacrifice',
+                text = {
+                    "Choose {C:attention}#1#{} cards,",
+                    "{C:red}destroy{} the left {C:attention}#2#{},",
+                    "give the rest a random {C:dark_edition}edition"
+                },
+            },
+            c_biasedBalance_Conjuration = {
+                name = "Conjuration",
+                text = {
+                    "Create a free", "{C:attention}Double Tag"
+                }
+            },
+            c_biasedBalance_Phantom = {
+                name = "Phantom",
+                text = {
+                    "Create a free {C:attention}Voucher Tag{},", "lose up to {C:money}$#1#"
+                }
+            },
+            c_biasedBalance_Stain = {
+                name = "Stain",
+                text = {
+                    "Add a random {C:attention}Seal", "to up to {C:attention}#1#{} selected", "playing cards,",
+                    "lose up to {C:money}$#2#"
+                }
+            },
+            c_biasedBalance_Crossroads = {
+                name = "Crossroads",
+                text = {
+                    "Add a random {C:dark_edition}Edition", "to up to {C:attention}#1#{} selected", "playing cards,",
+                    "lose up to {C:money}$#2#"
+                }
+            },
+            c_biasedBalance_Awakening = {
+                name = "Awakening",
+                text = {
+                    "Select {C:attention}2{} cards",
+                    "increase rank by {C:attention}1{}",
+                    "Uses {C:attention}#1#"
+                }
+            },
+            c_biasedBalance_Sacrifice = {
+                name = "Sacrifice",
+                text = {
+                    "{C:red}Destroys{} leftmost Joker,", "earn {C:money}$#1#"
+                }
+            },
         },
         Stake = {
             stake_blue = {

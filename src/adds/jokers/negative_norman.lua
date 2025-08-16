@@ -1,6 +1,6 @@
 SMODS.Joker {
     atlas = "Joker",
-    key = "Negative_Norman",
+    key = "negative_norman",
     pos = {
         x = 0,
         y = 0
@@ -26,6 +26,9 @@ SMODS.Joker {
                     return true
                 end
             }))
+            return {
+                message = "Negative Tag Added!"
+            }
         end
     end
 }

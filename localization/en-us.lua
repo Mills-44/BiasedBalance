@@ -478,8 +478,8 @@ return {
                     "Jokers sell for {C:money}$0"
                 }
             },
-            j_biasedBalance_flavourful_joker = {
-                name = "Flavourful Joker",
+            j_biasedBalance_flavorful_joker = {
+                name = "Flavorful Joker",
                 text = {
                     "{C:chips}+#1#{} Chips per Joker",
                     "with an {C:dark_edition}Edition"

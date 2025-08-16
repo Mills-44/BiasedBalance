@@ -217,7 +217,13 @@ BiasedBalance.Rarity_Tweaks = {
     "rarity",
 }
 BiasedBalance.Voucher_Tweaks = {
+    "antimatter",
+    "blank",
+    "glow_up",
+    "hone",
     "illusion",
+    "magic_trick",
+    "planet_merchant",
 }
 BiasedBalance.Stake_Tweaks = {
     "blue",

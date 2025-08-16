@@ -1,8 +1,8 @@
 SMODS.Joker {
-    atlas = "Joker",
+    atlas = "Joker2",
     key = "eldritch_joker",
     pos = {
-        x = 0,
+        x = 2,
         y = 0
     },
     rarity = 1,

@@ -50,7 +50,7 @@ BiasedBalance.Joker_Adds = {
     "anchor",
     --"alien_joker",
     "cinemaphile",
-    --"chimera",
+    "chimera",
     --"chisel",
     --"ciertzew",
     "crystal_cave",
@@ -72,7 +72,7 @@ BiasedBalance.Joker_Adds = {
    --"osmosis",
    --"ouroboros"
    --"pierogi",
-    --"poacher",
+    "poacher",
     --"platinum_ticket",
     "red_sun",
     --"reverberating_echo",

@@ -323,6 +323,12 @@ return {
                     "{C:inactive}Currently {X:mult,C:white}X#3#{C:inactive} Mult)"
                 }
             },
+            j_biasedBalance_chimera = {
+                name = "Chimera",
+                text = {
+                    "{C:attention}+#1#{} hand", "per round"
+                }
+            },
             j_biasedBalance_cinemaphile = {
                 name = "Cinemaphile",
                 text = { "Sell this card to",
@@ -366,6 +372,10 @@ return {
                     "{C:attention}#2#{} in your full deck",
                     "{C:inactive}(Currently {C:mult}+#3#{C:inactive} Mult)"
                 }
+            },
+            j_biasedBalance_poacher = {
+                name = "Poacher",
+                text = { "{C:green}#1# in #2#{} chance to", "enhance each", "scored card to {C:attention}Wild" }
             },
             j_biasedBalance_red_sun = {
                 name = "Red Sun",

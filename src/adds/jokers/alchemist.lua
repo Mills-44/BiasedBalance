@@ -3,7 +3,7 @@ SMODS.Joker {
     key = "alchemist",
     pos = {
         x = 0,
-        y = 1
+        y = 7
     },
     rarity = 1,
     cost = 4,

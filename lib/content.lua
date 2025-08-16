@@ -61,14 +61,14 @@ BiasedBalance.Joker_Adds = {
     "free_lunch",
     "gourmet",
     --"granite",
-    --"haunted_house",
+    "haunted_house",
     --"knave",
     --"joker_in_a_high_castle",
     "leprechaun",
     --"lingering_resentment"
     --"mecha_joker",
     --"negative_nancy",
-    --"negative_norman",
+   "negative_norman",
    "osmosis",
    --"ouroboros"
    "pierogi",

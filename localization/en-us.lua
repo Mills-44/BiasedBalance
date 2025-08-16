@@ -385,11 +385,26 @@ return {
                     "Currently: {C:mult}+#2#{} Mult"
                 }
             },
+            j_biasedBalance_haunted_house = {
+                name = "Haunted House",
+                text = { 
+                    "When a {C:attention}Full House{} is scored",
+                    "{C:green}#1# in #2#{} chance to create",
+                    "A random {C:dark_edition}Spectral{} card"
+                }
+            },
             j_biasedBalance_leprechaun = {
                 name = 'Leprechaun',
                 text = {
                     "{X:mult,C:white}X#1#{} Mult if you",
                     "have {C:money}$#2#{} or more"
+                }
+            },
+            j_biasedBalance_negative_norman = {
+                name = "Negative Norman",
+                text = { 
+                    "When a {C:attention}Boss Blind{} is defeated",
+                    "Create a {C:attention}Negative tag"
                 }
             },
             j_biasedBalance_osmosis = {

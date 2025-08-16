@@ -369,8 +369,8 @@ return {
                 name = 'Osmosis',
                 text = {
                     "{C:mult}+#1#{} Mult per card above",
-                    "{C:attention}#2#{} in your full deck",
-                    "{C:inactive}(Currently {C:mult}+#3#{C:inactive} Mult)"
+                    "{C:attention}50{} in your full deck",
+                    "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)"
                 }
             },
             j_biasedBalance_poacher = {

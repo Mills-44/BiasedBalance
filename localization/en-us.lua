@@ -28,21 +28,28 @@ return {
                 },
             },
             -- ||   ADDED BACKS    ||
-            b_biasedBalance_Purple = {
+            b_biasedBalance_purple = {
                 name = "Purple Deck",
                 text = {
                     "{X:mult,C:white}X#1#{} Mult",
                     "No repeat hand types",
                 }
             },
-            b_biasedBalance_Teal = {
+            b_biasedBalance_pink = {
+                name = "Pink Deck",
+                text = {
+                    "{C:common}Common{} Jokers are",
+                    "less common"
+                }
+            },
+            b_biasedBalance_teal = {
                 name = "Teal Deck",
                 text = {
                     "Whenever you leave shop",
                     "Create a random {C:tarot}Tarot{} card"
                 }
             },
-            b_biasedBalance_White = {
+            b_biasedBalance_white = {
                 name = "White Deck",
                 text = {
                     "At the start of each round",

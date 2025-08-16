@@ -1,12 +1,12 @@
 -- ||       ADDITIONS        ||
 BiasedBalance.Back_Adds = {
 -- ||   RELEASED   ||
-    "Teal",
-    "White",
+    "teal",
+    "pink",
+    "white",
 -- ||   WIP   ||
     -- "Hibiscus",
     -- "Legendary",
-    -- "Pink",
     -- "Purple",
 }
 

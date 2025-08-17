@@ -19,7 +19,7 @@ SMODS.Joker {
         return { 
             vars = { 
                 card.ability.extra.mult, 
-                card.ability.extra.mult * (#G.playing_cards - 50)
+                (card.ability.extra.mult * (G.GAME.starting_deck_size  - 50)) or 0
             }  
         }
     end,

@@ -126,7 +126,7 @@ BiasedBalance.edition_buffer = {}
 -- Cost Set
 local raw_Card_set_cost = Card.set_cost
 function Card:set_cost(...)
-    if self.config.center.key == 'j_biasedBalance_FreeLunch' then
+    if self.config.center.key == 'j_biasedBalance_free_lunch' then
         self.sell_cost = -35
         self.cost = -30
         self.sell_cost_label = self.facing == 'back' and '?' or self.sell_cost
@@ -135,7 +135,7 @@ function Card:set_cost(...)
 
     local ret = { raw_Card_set_cost(self, ...) }
 
-    if self.config.center.set == 'Joker' and next(SMODS.find_card 'j_biasedBalance_DeathAndTaxes') then
+    if self.config.center.set == 'Joker' and next(SMODS.find_card 'j_biasedBalance_death_and_taxes') then
         self.sell_cost = 0
         self.sell_cost_label = self.facing == 'back' and '?' or self.sell_cost
     end

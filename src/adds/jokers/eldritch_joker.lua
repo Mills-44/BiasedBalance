@@ -33,7 +33,7 @@ SMODS.Joker {
                 xmult = card.ability.extra.xmult
             }
         end
-        if context.end_of_round then 
+        if context.end_of_round and context.cardarea == G.jokers then 
             card.ability.extra.xmult = 1
             return {
                 message = "Reset!",

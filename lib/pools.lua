@@ -214,6 +214,11 @@ BiasedBalance.Poker_Hands = {
     "High Card"
 }
 
+BiasedBalance.Secret_Hands = {
+    "Flush House",
+    "Flush Five",
+    "Five of a Kind"
+}
 --BiasedBalance.Utility_Jokers {
     
 --}

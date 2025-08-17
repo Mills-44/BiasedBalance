@@ -181,6 +181,14 @@ return {
                     "{C:tarot}Tarot card{} and gain {C:gold}$#1#"
                 }
             },
+            j_biasedBalance_conspiracy = {
+                name = "Conspiracy",
+                text = { 
+                    "After 1 round sell this {C:attention}Joker",
+                    "level up a random secret poker hand",
+                    "{C:inactive}#1#/1{} Rounds left"
+                }
+            },
             j_biasedBalance_eldritch_joker= {
                 name = "Eldritch Joker",
                 text = { 
@@ -283,6 +291,15 @@ return {
                     "For every {C:chips}#2#{} Chips",
                     "you score, This {C:attention}Joker{} gives",
                     "{C:mult}#1#{} Mult and rounds down"
+                }
+            },
+            j_biasedBalance_submarine = {
+                name = "Submarine",
+                text = {
+                    "This {C:attention}Joker{} gives",
+                    "{C:mult}+#1#{} Mult for every",
+                    "unique planet this round",
+                    "Currently: {C:mult}+#2#{} Mult"
                 }
             },
             j_biasedBalance_terrace_garden = {

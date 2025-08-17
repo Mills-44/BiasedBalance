@@ -1,9 +1,9 @@
 SMODS.Joker {
-    atlas = "Joker",
+    atlas = "Joker2",
     key = "rivals",
     pos = {
-        x = 0,
-        y = 5
+        x = 2,
+        y = 1
     },
     rarity = 3,
     cost = 8,

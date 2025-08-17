@@ -4,7 +4,7 @@ SMODS.Joker {
     cost = 6,
     atlas = "Joker",
     pos = { 
-        x = 0, 
+        x = 4, 
         y = 0 
     },
     config = { 

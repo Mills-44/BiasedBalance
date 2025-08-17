@@ -98,7 +98,7 @@ BiasedBalance.Joker_Adds = {
     "bookworm",
     "brash_gambler",
     "court",
-    "death_and_taxes",
+    --"death_and_taxes",
     "flavorful_joker",
     "minstrel",
     "parvenu",

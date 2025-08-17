@@ -40,7 +40,7 @@ BiasedBalance.Joker_Adds = {
     --"short_fuse",
     --"shy",
     --"smurf",
-    "submarine",
+    --"submarine",
     "subversive",
     "terrace_garden",
     --"toolkit",

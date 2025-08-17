@@ -439,7 +439,7 @@ return {
                 }
             },
             j_biasedBalance_osmosis = {
-                name = 'Osmosis',
+                name = "Osmosis",
                 text = {
                     "{C:mult}+#1#{} Mult per card above",
                     "{C:attention}50{} in your full deck",

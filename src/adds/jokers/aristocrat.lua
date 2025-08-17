@@ -5,7 +5,7 @@ SMODS.Joker {
         x = 0,
         y = 0
     },
-    rarity = 1,
+    rarity = 3,
     cost = 5,
     blueprint_compat = true,
     eternal_compat = true,

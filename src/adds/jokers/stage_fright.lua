@@ -25,14 +25,9 @@ SMODS.Joker {
     }
     end,
     calculate = function(self, card, context)
-        if context.before and context.main_eval and G.GAME.current_round.hands_played == 0 then
-            local faces = 0
-            for _, playing_card in ipairs(context.scoring_hand) do
-                if playing_card:is_face() then
-                    faces = faces + 1
-                end
-            end      
-            card.ability.extra.chips = card.ability.extra.chips + (card.ability.extra.chip_gain * faces)
+        if context.individual and context.cardarea == G.hand and G.GAME.current_round.hands_played == 0 
+        and (context.other_card:get_id() == 11 or context.other_card:get_id() == 12 or context.other_card:get_id() == 13) then
+            card.ability.extra.chips = card.ability.extra.chips + card.ability.extra.chip_gain
         end
         if context.joker_main then
             return {

@@ -26,7 +26,7 @@ SMODS.Joker {
     end,
     calculate = function(self, card, context)
         if context.joker_main and not context.individual then
-            local calc = math.floor((hand_chips * mult) / 100)
+            local calc = math.floor(hand_chips / 100)
             return { 
                 mult = calc * 14
             }

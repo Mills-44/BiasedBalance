@@ -29,10 +29,10 @@ SMODS.Joker {
             card.ability.extra.xmult = 3
             for _, c in ipairs(G.playing_cards or {}) do
                 if c:is_suit('Diamonds') then
-                    card.ability.extra.xmult = card.ability.extra.xmult - card.ability.extra.xmult_lose
+                    card.ability.extra.xmult = math.max(card.ability.extra.xmult - card.ability.extra.xmult_lose, 1)
                 end
                 if c:is_suit('Hearts') then
-                    card.ability.extra.xmult = card.ability.extra.xmult - card.ability.extra.xmult_lose   
+                    card.ability.extra.xmult = math.max(card.ability.extra.xmult - card.ability.extra.xmult_lose, 1)  
                 end
             end
             return {

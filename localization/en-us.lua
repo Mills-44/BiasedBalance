@@ -181,6 +181,10 @@ return {
                     "{C:tarot}Tarot card{} and gain {C:gold}$#1#"
                 }
             },
+            j_biasedBalance_caviar = {
+                name = "Caviar",
+                text = { "{C:common}Common{} Jokers", "are less common" }
+            },
             j_biasedBalance_conspiracy = {
                 name = "Conspiracy",
                 text = { 

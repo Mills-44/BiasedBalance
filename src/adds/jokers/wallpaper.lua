@@ -22,34 +22,36 @@ SMODS.Joker {
         } 
     }
     end,
-    
-    calculate = function(self, card, context)
-        local diamonds, hearts, clubs, spades = 0, 0, 0, 0
-        local suit_count = 0
-        if context.individual and context.cardarea == G.hand then
-            if context.other_card:is_suit('Diamonds') then
-                diamonds = 1
-            elseif context.other_card:is_suit('Hearts') then
-                hearts = 1
-            elseif context.other_card:is_suit('Spades') then
-                spades = 1
-            elseif context.other_card:is_suit('Clubs') then
-                clubs = 1
-            end
-        end
+     calculate = function(self, card, context)
         if context.joker_main then
-            suit_count = diamonds + hearts + spades + clubs
-            if suit_count == 2 then
+            -- Track which suits appear
+            local suits_seen = {}
+            for i = 1, #context.scoring_hand do
+                local c = context.scoring_hand[i]
+                if c:is_suit('Hearts', true) then
+                    suits_seen['Hearts'] = true
+                elseif c:is_suit('Diamonds', true) then
+                    suits_seen['Diamonds'] = true
+                elseif c:is_suit('Spades', true) then
+                    suits_seen['Spades'] = true
+                elseif c:is_suit('Clubs', true) then
+                    suits_seen['Clubs'] = true
+                end
+            end
+
+            -- Count distinct suits
+            local distinct = 0
+            for _, v in pairs(suits_seen) do
+                if v then distinct = distinct + 1 end
+            end
+
+            -- Condition: no more than 2 suits
+            if distinct <= 2 then
                 return {
-                    xmult = 2
-                }
-            else
-                return {
-                    message = "Nope!",
-                    colour = G.C.FILTER
+                    xmult = card.ability.extra.xmult
                 }
             end
         end
-    end
+    end,
 }
 

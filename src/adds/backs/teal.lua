@@ -1,5 +1,5 @@
 SMODS.Back {
-    key = 'Teal',
+    key = 'teal',
     atlas = 'Backs',
     pos = {
         x = 3,

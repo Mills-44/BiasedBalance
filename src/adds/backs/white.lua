@@ -1,6 +1,6 @@
 SMODS.Back {
-    key = "White",
-    name = "White",
+    key = "white",
+    name = "white",
     atlas = "Backs",
     pos = {
         x = 0,

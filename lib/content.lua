@@ -45,7 +45,7 @@ BiasedBalance.Joker_Adds = {
     "terrace_garden",
     --"toolkit",
     "wisteria_joker",
-    --"wallpaper"
+    "wallpaper",
 -- Uncommon
     "anchor",
     --"alien_joker",

@@ -10,7 +10,7 @@
   "badge_text_colour": "fc7b7b",
   "display_name": "Biased Balance",
   "version": "1.0.0",
-  "dependencies": ["Steamodded (>=1.0.0~BETA-0614a)"],
+  "dependencies": ["Steamodded (>=1.0.0~BETA-0827c)"],
   "conflicts": [],
   "provides": []
 }

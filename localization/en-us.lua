@@ -11,6 +11,16 @@ return {
                     "{C:dark_edition}Negative{} is",
                     "{X:mult,C:white}4X{} more common" }
             },
+            b_green={
+                name="Green Deck",
+                text={
+                    "At end of each Round:",
+                    "{C:money}$#1#{s:0.85} per remaining {C:blue}Hand",
+                    "{C:money}$#2#{s:0.85} per remaining {C:red}Discard",
+                    "Earn no {C:attention}Interest",
+                    "{C:inactive}(Seed Money & Money Tree Removed)"
+                },
+            },
             b_ghost = {
                 text = {
                     "{C:spectral}Spectral{} cards may",
@@ -20,7 +30,7 @@ return {
                     "{X:mult,C:white}3X{} more common"
                 }
             },
-            b_yellow={
+            b_yellow = {
                 name="Yellow Deck",
                 text={
                     "Start with",
@@ -669,6 +679,13 @@ return {
                     "add to your deck",
                 }
             },
+            p_biasedBalance_HyperArcana = {
+                name = 'Hyper Arcana Pack',
+                text = {
+                    "Choose {C:attention}#1#{} of up to",
+                    "{C:attention}#2# Tarot{} cards",
+                }
+            },
         },
         Spectral = {
         -- ||   TWEAKED SPECTRALS    ||
@@ -830,6 +847,12 @@ return {
                     "{C:attention}Giga Standard Pack",
                 }
             },
+            tag_charm = {
+                text = {
+                    "Gives a free",
+                    "{C:attention}Hyper Arcana Pack",
+                }
+            },
         },
         Voucher = {
              v_omen_globe = {
@@ -873,6 +896,7 @@ return {
             k_booster_group_p_biasedBalance_Utility = 'Utility Pack',
             k_booster_group_p_biasedBalance_Sacrifice = 'Sacrifice',
             k_booster_group_p_biasedBalance_GigaStandard = 'Giga Standard Pack',
+            k_booster_group_p_biasedBalance_HyperArcana = 'Hyper Arcana Pack',
             k_booster_group_p_biasedBalance_LowStickerBuffoon = 'Mega Buffoon Pack',
             k_biasedBalance_noRepeats = 'No repeat hand types',
         },

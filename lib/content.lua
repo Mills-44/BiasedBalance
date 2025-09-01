@@ -115,8 +115,16 @@ BiasedBalance.Spectral_Adds = {
 -- ||       TWEAKS        ||
 BiasedBalance.Back_Tweaks = {
 -- ||   RELEASED   ||
+    "black",
+    "green",
     "ghost",
     "yellow"
+-- ||   WIP   ||
+}
+BiasedBalance.Booster_Tweaks = {
+-- ||   RELEASED   ||
+    "celestial",
+    "standard"
 -- ||   WIP   ||
 }
 BiasedBalance.Spectral_Tweaks = {
@@ -193,8 +201,10 @@ BiasedBalance.Joker_Tweaks = {
 BiasedBalance.Tag_Tweaks = {
     "boss",
     "buffoon",
+    "charm",
     "double",
     "d_six",
+    "edition",
     "handy",
     "uncommon",
     "rare",

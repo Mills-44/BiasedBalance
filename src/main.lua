@@ -41,6 +41,7 @@ BiasedBalance.file_loader(BiasedBalance.Rarity_Tweaks, "src/tweaks/rarities")
 BiasedBalance.file_loader(BiasedBalance.Stake_Tweaks, "src/tweaks/stakes")
 BiasedBalance.file_loader(BiasedBalance.Tag_Tweaks, "src/tweaks/tags")
 BiasedBalance.file_loader(BiasedBalance.Voucher_Tweaks, "src/tweaks/vouchers")
+BiasedBalance.file_loader(BiasedBalance.Booster_Tweaks, "src/tweaks/boosters")
 --BiasedBalance.file_loader(BiasedBalance.Blind_Tweaks, "src/tweaks/blinds")
 
 -- ADDS
@@ -96,6 +97,14 @@ SMODS.Atlas {
     px = 28,
     py = 28
 }
+
+SMODS.Atlas {
+    key  = 'modicon',
+    path = 'modicon.png',
+    px   = 32, 
+    py   = 32, 
+  }
+
 
 --SMODS.Atlas {
   --  key = "Vouchers",

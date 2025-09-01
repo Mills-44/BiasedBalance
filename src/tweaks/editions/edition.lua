@@ -1,5 +1,3 @@
-SMODS.Back:take_ownership("black", {})
-
 local polling_playing = false
 
 local raw_get_weight = G.P_CENTERS.e_negative.get_weight
